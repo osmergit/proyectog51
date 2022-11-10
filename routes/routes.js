@@ -13,7 +13,7 @@ router.get('/shevento/:id', showonevento);
 router.delete('/delevento/:id', delonevent);
 router.put('/upevento/:id', upevento);
 
-//rutas collection usuarios
+//rutas collection usuarios de la bd de mongodb
 router.post('/reguser', regusuario);
 router.get('/shuser', showuser);
 router.get('/shuser/:id', shuserone);
